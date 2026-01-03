@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaSeleniumAutomation.AutomationFrameworkSelenium.TestSelenium16_Mini_Project_2_Add_Extension">
+      <class name="ex04_Selenium_XPATH.TestSelenium20_MiniProject">
         <methods>
-          <include name="test_Selenium01"/>
+          <include name="test_OHRM_login"/>
         </methods>
-      </class> <!-- JavaSeleniumAutomation.AutomationFrameworkSelenium.TestSelenium16_Mini_Project_2_Add_Extension -->
+      </class> <!-- ex04_Selenium_XPATH.TestSelenium20_MiniProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

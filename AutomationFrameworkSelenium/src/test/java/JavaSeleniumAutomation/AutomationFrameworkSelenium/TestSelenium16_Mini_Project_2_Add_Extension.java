@@ -22,7 +22,7 @@ public class TestSelenium16_Mini_Project_2_Add_Extension {
 		ChromeOptions choptions = new ChromeOptions();
 		//choptions.addArguments("--window-size=1920,1080");
 		//choptions.addArguments("--incognito");
-		File filepath= new File("/src/test/java/JavaSeleniumAutomation/AutomationFrameworkSelenium/AdBlockers.crx");
+		File filepath= new File("src/test/java/JavaSeleniumAutomation/AutomationFrameworkSelenium/AdBlockers.crx");
 		choptions.addExtensions(filepath);//added extension to choptions , path we have mentioned above
 		
 		
