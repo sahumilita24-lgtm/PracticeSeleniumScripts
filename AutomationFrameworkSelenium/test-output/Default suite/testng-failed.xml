@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ex04_Selenium_XPATH.TestSelenium20_MiniProject">
+      <class name="ex06_Input_Select_Alerts_Radio.TestSelenium27_Select_Static">
         <methods>
-          <include name="test_OHRM_login"/>
+          <include name="test_select"/>
         </methods>
-      </class> <!-- ex04_Selenium_XPATH.TestSelenium20_MiniProject -->
+      </class> <!-- ex06_Input_Select_Alerts_Radio.TestSelenium27_Select_Static -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

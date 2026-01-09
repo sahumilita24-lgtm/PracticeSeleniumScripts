@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-05T17:07:15 IST" name="Default suite" finished-at="2026-01-05T17:07:30 IST" duration-ms="15071">
+  <suite started-at="2026-01-09T20:06:05 IST" name="Default suite" finished-at="2026-01-09T20:06:24 IST" duration-ms="18535">
     <groups>
     </groups>
-    <test started-at="2026-01-05T17:07:15 IST" name="Default test" finished-at="2026-01-05T17:07:30 IST" duration-ms="15071">
-      <class name="ex04_Selenium_XPATH.TestSelenium21_MiniProject_3">
-        <test-method signature="test_katalon_login()[pri:0, instance:ex04_Selenium_XPATH.TestSelenium21_MiniProject_3@5a5a729f]" started-at="2026-01-05T17:07:15 IST" name="test_katalon_login" finished-at="2026-01-05T17:07:30 IST" duration-ms="14917" status="PASS">
+    <test started-at="2026-01-09T20:06:05 IST" name="Default test" finished-at="2026-01-09T20:06:24 IST" duration-ms="18535">
+      <class name="ex06_Input_Select_Alerts_Radio.TestSelenium28_Alerts">
+        <test-method signature="alert()[pri:0, instance:ex06_Input_Select_Alerts_Radio.TestSelenium28_Alerts@d554c5f]" started-at="2026-01-09T20:06:05 IST" name="alert" finished-at="2026-01-09T20:06:24 IST" duration-ms="18239" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_katalon_login -->
-      </class> <!-- ex04_Selenium_XPATH.TestSelenium21_MiniProject_3 -->
+        </test-method> <!-- alert -->
+      </class> <!-- ex06_Input_Select_Alerts_Radio.TestSelenium28_Alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
