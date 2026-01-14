@@ -65,6 +65,13 @@ public class commonToAll {
 		return error_message;
 	}
 	
+	public void oranheHRMLogin(WebDriver driver)
+	{
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("admin");
+		driver.findElement(By.xpath("//input[@name= 'password']")).sendKeys("Hacker@4321");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+	}
+	
 	
 
 }
