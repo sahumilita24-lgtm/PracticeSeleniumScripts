@@ -1,0 +1,32 @@
+**What is SVG?**
+
+- **Scalable Vector Graphics **to define graphics for web.
+- XML based language to create 2-D graphics/images with animation and interactivity.
+- Uses geometrical figures to draw an image.
+
+<SVG>
+
+<g>
+
+<path>
+
+[﻿www.w3schools.com/graphics/svg_intro.asp](https://www.w3schools.com/graphics/svg_intro.asp) 
+
+
+
+##  How to interact with SVG? 
+//*[local-name()='svg']
+//*[name()='svg']
+
+**Problem statement that we want to automate.**
+
+<svg>
+
+<g>
+
+<circle>
+
+<polygon>
+
+<path>
+

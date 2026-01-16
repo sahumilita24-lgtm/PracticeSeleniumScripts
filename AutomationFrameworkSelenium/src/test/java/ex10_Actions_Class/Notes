@@ -1,0 +1,55 @@
+## Actions
+
+
+Actions class is an ability provided by Selenium for handling keyboard and mouse events.
+
+- Keyboard Events
+- Mouse Events
+|  |
+| ----- |
+| Actions action = new Actions(driver);action.moveToElement(element).click().perform(); |
+**Methods of Action Class**
+
+Action class is useful mainly for mouse and keyboard
+
+
+
+** Mouse Actions in Selenium:**
+
+1. **Perform Mouse Hover Action on the Web Element**
+2. **moveToElement(live).build().perform();**
+3. **doubleClick():** Performs double click on the element
+4. **clickAndHold()**: Performs long click on the mouse without releasing it
+5. **dragAndDrop():** Drags the element from one point and drops to another
+6. **moveToElement():** Shifts the mouse pointer to the center of the element
+7. **contextClick():** Performs right-click on the mouse Keyboard Actions in Selenium
+8. **sendKeys()**: Sends a series of keys to the element
+9. **keyUp():** Performs key release
+**keyDown():** Performs keypress without release.
+
+
+
+**Keyboard Events**
+
+i. **keyDown**(KeyCode) - Performs key press without releasing it.
+
+Parameters - Key_Code For e.g., Keys.ALT, Keys.SHIFT or Keys.CONTROL
+
+ii. **keyUp**(KeyCode) - Performs a key release. It has to be used after keyDown to release the key.
+
+Parameters - Key_Code For e.g., Keys.ALT, Keys.SHIFT or Keys.CONTROL
+
+
+
+**Drag and Drop**
+
+With Action or with Function
+
+ builder.clickAndHold(from)
+
+ .moveToElement(to)
+
+ .release(to)
+
+ .build();
+
