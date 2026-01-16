@@ -1,0 +1,24 @@
+
+✅ sendKeys() for file upload only works when:
+- The target element is an <input> tag
+- And its type attribute is set to "file"
+
+🔍 Why?
+Selenium uses sendKeys() to simulate a user selecting a file from their system.
+But browsers only allow file paths to be sent to <input type="file"> elements — for security reasons.
+
+- If it’s type="text" or any other type, sendKeys() will just enter text — not upload a file.
+- If it’s a custom upload button (e.g., <button> or <div>), sendKeys() won’t work at all.
+
+🛠 Workaround for Custom Upload UIs
+If the site uses a stylized button or drag-and-drop zone:
+- Find the hidden <input type="file"> behind it.
+- Use JavaScript to make it visible if needed:
+JavascriptExecutor js = (JavascriptExecutor) driver;
+js.executeScript("arguments[0].style.display='block';", hiddenInput);
+hiddenInput.sendKeys("C:\\path\\to\\file.txt");
+
+
+
+
+
