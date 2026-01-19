@@ -1,0 +1,10 @@
+**Window**
+
+ => Tabs - Browser Windows ->
+
+- In any browser, a window is the main webpage to which the user is directed after clicking on a link or URL.
+- Every Tab has a unique 16 digit session ID or windows or tab ID assigned to it.
+- You can switch between the tabs - by using the two functions provided by the Selenium.
+- Such a window in Selenium is referred to as the "parent window also known as the main window which opens when the Selenium WebDriver session is created and has all the focus of the WebDriver.
+- driver.getWindowHandle - Single Window Handle
+- driver.getWindowHandles -> Set of Window handle opened. 
