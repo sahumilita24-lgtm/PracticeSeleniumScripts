@@ -12,7 +12,7 @@ public class Lab40_JS_code {
 	public void jsexecuto()
 	{
 	WebDriver driver = new ChromeDriver();
-	JavascriptExecutor js = (JavascriptExecutor)driver;
+	JavascriptExecutor js = (JavascriptExecutor)driver; //explcit casting i.e downcasting we are performing here
 	js.executeScript("window.location = 'https://www.google.com'");
 	
 	driver.get("https://selectorshub.com/xpath-practice-page/");
