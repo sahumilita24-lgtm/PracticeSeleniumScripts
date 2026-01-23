@@ -1,0 +1,18 @@
+
+- [ ] Relative Locators in **Selenium 4** provide a new way to** locate web elements based on their spatial relationships to other elements.**
+
+
+#### Key Relative Locators
+Selenium 4 introduces five main relative locators:
+
+1. **above()**: Locates an element above a specified element -> preceding
+2. **below()**: Finds an element below a specified element -> following-sibling
+3. **toLeftOf()**: Identifies an element to the left of a specified element -> 
+4. **toRightOf()**: Locates an element to the right of a specified element
+5. **near()**: Finds an element within 50 pixels of a specified element ->
+
+****import static org.openqa.selenium.support.locators.RelativeLocator.*;***
+The RelativeLocator class in Selenium provides methods like with(), above(), below(), toLeftOf(), toRightOf(), and near().
+If you don’t use a static import, you must call them with the class name
+WebElement password = driver.findElement( RelativeLocator.with(By.tagName("input")).above(By.id("login"))
+);
